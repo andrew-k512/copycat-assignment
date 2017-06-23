@@ -11,7 +11,7 @@ body {
 }
 main {
   min-width: 50%;
-  max-width: 900px;
+  max-width: 63%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,11 +46,26 @@ div.header-text {
   margin-right: 61%;
 }
 
+/*The follow section arranges the blue banner box ------------------------------
+------------------------------------------------------------------------------*/
+div.banner-image {
+  float: left;
+}
+section.text-cats {
+  clear: both;
+}
+h2.meowcome {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  position: relative;
+  top: 40px;
+}
 
 /*The following section sets the color boxes, along with header and footer width
 ------------------------------------------------------------------------------*/
-section.banner {
-  background-color: #26547C;
+section.banner, div.banner-image, div.banner-text, main {
+  background-color  : #26547C;
 }
 section.text-cats {
   background-color: #FFD166;
