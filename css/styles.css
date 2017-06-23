@@ -58,9 +58,44 @@ h2.meowcome {
   text-align: center;
   color: white;
   font-size: 60px;
-  position: relative;
-  top: 40px;
+  padding-top: 35px;
 }
+/*The following section arranges ing, header, and paragraph elements in <main>--
+------------------------------------------------------------------------------*/
+p {
+  padding: 10px 30px 20px 30px;
+  font-size: 22px;
+}
+h3 {
+  padding: 10px 30px;
+  font-size: 40px;
+}
+li.cat-pics {
+  padding: 10px;
+}
+li.cat-pics > img {
+  border: 3px solid black;
+}
+
+/*The following pretties about the "text-about" section ------------------------
+------------------------------------------------------------------------------*/
+h3.h3-about {
+  text-transform: uppercase;
+  color: #EF476F;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  padding: 10px 100px 10px 120px;
+
+
+}
+p.float-clear {
+ clear: both;
+ padding: 20px 30px 20px 30px;
+ margin: 0;
+ color: white;
+}
+
 
 /*The following section sets the color boxes, along with header and footer width
 ------------------------------------------------------------------------------*/
@@ -79,6 +114,14 @@ section.text-about {
 header, footer {
   background-color: #06D6A0;
   width: 100%;
+}
+p.footer {
+  color: white;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
 
 
 
