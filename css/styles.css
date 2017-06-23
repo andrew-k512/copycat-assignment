@@ -1,3 +1,5 @@
+/*----Basic page set up --------------------------------------------------------
+------------------------------------------------------------------------------*/
 body {
   margin: 0 0 0 0;
   width: 100%;
@@ -7,19 +9,46 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-header, footer {
-  background-color: #06D6A0;
-  width: 100%;
-}
-
 main {
   min-width: 50%;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
+li {
+  display: inline-block;
+}
+/*The following section arranges & styles content in the header -------------------------
+------------------------------------------------------------------------------*/
+h1 {
+  font-size: 25px;
+  color: white;
+  margin: 25px;
+  font-weight: 800;
+}
+ a {
+  font-size: 25px;
+  text-decoration: underline;
+}
+li.nav-links {
+  margin-right: 15px;
+}
+.header-text, .header-nav {
+  display: inline-block;
+}
+header {
+  position: relative;
+}
+div.header-nav {
+  vertical-align: center;
+}
+div.header-text {
+  margin-right: 61%;
+}
 
 
+/*The following section sets the color boxes, along with header and footer width
+------------------------------------------------------------------------------*/
 section.banner {
   background-color: #26547C;
 }
@@ -32,10 +61,12 @@ section.text-products {
 section.text-about {
   background-color: #26547C;
 }
+header, footer {
+  background-color: #06D6A0;
+  width: 100%;
 
-li {
-  display: inline-block;
-}
+
+
 
 
 
