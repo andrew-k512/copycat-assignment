@@ -3,23 +3,63 @@ body {
   width: 100%;
   height: 100%;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 header, footer {
   background-color: #06D6A0;
   width: 100%;
 }
+
 main {
-  width: 50%;
+  min-width: 50%;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
+
+section.banner {
+  background-color: #26547C;
+}
+section.text-cats {
+  background-color: #FFD166;
+}
+section.text-products {
+  background-color: #F2F2F2;
+}
+section.text-about {
+  background-color: #26547C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1, h2, h3, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .text {
   margin: 50px 20px 50px 20px;
 }
 
 img.cat-pics {
-  width: 263.8px;
-  height: 263.8px;
+
 }
 
 
