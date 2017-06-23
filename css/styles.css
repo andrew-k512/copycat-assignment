@@ -33,6 +33,10 @@ section.text-about {
   background-color: #26547C;
 }
 
+li {
+  display: inline-block;
+}
+
 
 
 
